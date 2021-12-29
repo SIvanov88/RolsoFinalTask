@@ -1,0 +1,6 @@
+@mixin elementPostion ($loc,$items,$dir) {
+    display: flex;
+    justify-content: $loc;
+    align-items: $items;
+    flex-direction: $dir;
+} 

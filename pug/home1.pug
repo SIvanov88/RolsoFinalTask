@@ -1,0 +1,207 @@
+doctype doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style/style.css")
+        link(rel="stylesheet", href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="stylesheet", href="./node_modules/@splidejs/splide/dist/css/splide.min.css")
+        script(type="module" src="./js/script.js")  
+
+
+        title Document
+    header 
+        include temp/nav  
+        .container-fuid.headline 
+            .container.title 
+                h1 Transportation services around the World
+                p Curabitur congue finibus lorem, at dignissim metus elementum sit amet. Mauris eget dapibus quam. Integer a ante rutrum, semper risus a, blandit elit. Nunc dolor purus, condimentum ut lorem in, tincidunt consequat erat.
+                img(src="./img/Button.png", type="button" alt="")
+            img.rolso(src="./img/Rolso.png", alt="")                 
+    body
+        .container 
+            .row.divbox 
+                .col-sm-12.col-md-8.col-lg-4.border1 
+                    .box 
+                        img(src="./img/worldwide-pin.png", alt="")
+                        .text 
+                            h6 Worldwide
+                            p Aliquam erat volutpat. Ut ut erat dignissim, eleifend
+                    .box 
+                        img(src="./img/24-hours.png", alt="")
+                        .text 
+                            h6 Support 24/7
+                            p Maecenas dapibus mauris ornare, facilisis magna ut, pellentesque
+                    .box 
+                        img(src="./img/truck-delay.png", alt="")
+                        .text 
+                            h6 Always on time
+                            p Aliquam erat volutpat. Ut ut erat dignissim, eleifend 
+                .col-sm-12.col-md-8.col-lg-4.border2 
+                    .box 
+                        img(src="./img/box.png", alt="")
+                        .text 
+                            h6 Warehouse
+                            p Nam imperdiet erat in elit malesuada, et consequat nisl
+                    .box 
+                        img(src="./img/qr-code.png", alt="")
+                        .text 
+                            h6 Online Tracking
+                            p Nam imperdiet erat in elit malesuada, et consequat nisl
+                    .box 
+                        img(src="./img/check-list.png", alt="")
+                        .text 
+                            h6 Cargo Insurance
+                            p Suspendisse vulputate tellus consectetur sem faucibus
+                .col-sm-12.col-md-8.col-lg-4.border3
+                    ul 
+                        li Services
+                        li Road Freight
+                        li Shipping Freight
+                        li Air Freight
+                        li Train Freight
+                        li All Services
+                        img(src="./img/long-arrow-alt-right.png", alt="")
+            .row 
+                .col-sm-12.col-md-12.col-lg-12 
+                    h2 Rolso Logistic 
+                    h2 Services 
+            .row 
+                .col-sm-12.col-md-8.col-lg-8.pictures
+                    .picturediv 
+                        img(src="./img/image1.jpg", alt="")
+                        img(src="./img/image2.jpg", alt="")
+                        img(src="./img/image3.jpg", alt="")
+                        img(src="./img/image4.jpg", alt="")
+            .row 
+                .col-sm-12.col-md-8.col-lg-6.partone 
+                    .pic 
+                        img(src="./img/image5.jpg", alt="")      
+                    .picinfo 
+                        h3 Excellent company quality services
+                        p Donec lacinia purus et nisl dignissim, vel egestas nunc iaculis. Maecenas elementum elementum ipsum, sit amet lacinia lectus vulputate nec.
+                        img(src="./img/Button2.png", type="button" alt="")
+            .row
+                .col-sm-12.col-md-8.col-lg-6.parttwo 
+                    .picinfotwo 
+                        h3 Rolso transportation
+                        h3 company
+                        p Sed pulvinar ligula sapien, eget tincidunt mauris sollicitudin sed. Vivamus vel nisl diam.
+                        .image 
+                            img(src="./img/Delivered  (1).png", alt="")
+                            img(src="./img/Delivered  (2).png", alt="")
+                    .picnext
+                        img(src="./img/image6.jpg", alt="")
+            .row.person_information 
+                .col-sm-12.col-md-8.col-lg-6.text_title 
+                    h3 How much will i earn?
+                    p Maecenas dignissim, massa sed imperdiet fermentum, metus orci vehicula sapien, eu posuere.
+                    h6 Call us for consultation
+                    h4 +8 (495) 989 20 11
+                .col-sm-12.col-md-8.col-lg-6.inputdata
+                    .form 
+                        .data
+                            .person 
+                                label(for="text") Name: 
+                                input(type="text" id="text")
+                            .person  
+                                label(for="number") Phone:
+                                input(type="number" id="number")
+                        .data 
+                            .person 
+                                label(for="email") Email: 
+                                input(type="text" id="email")
+                            .person 
+                                label(for="text") Subject: 
+                                input(type="text" id="text") 
+                    .messege 
+                        label(for="text") Messeges: 
+                        textarea(name="Messages", cols="81", rows="6" placeholder="Text")
+                        img(src="./img/Calculator.png", type="button" alt="") 
+            .row
+                .col-12.carousel
+                    .splide
+                        .splide__track
+                            ul.splide__list
+                                li.splide__slide(data-h3="Donec varius, nisi sed cursus varius" data-p="The right price for you,whoever you are")
+                                    img(src="./img/image1.jpg", alt="")
+                                li.splide__slide(data-h3="Class aptent taciti sociosqu" data-p="How much will i earn?")
+                                    img(src="./img/image2.jpg", alt="")
+                                li.splide__slide(data-h3="Proin non mattis augue. In vehicula" data-p="We provide future of delivery")
+                                    img(src="./img/image3.jpg", alt="")
+                        .slide_content 
+                            h3 Provide quick tracking your cargo
+                            p Class aptent taciti sociosqu ad litora torquent per conubia nostra
+                                                 
+            .row
+                .col-sm-12.col-md-8.col-lg-12.section7
+                    .stuff 
+                        h3 The right price for you, whoever you are
+                        p Donec varius, nisi sed cursus varius, dolor dui vehicula enim, eu porttitor lacus metus vitae nibh. Etiam efficitur lorem et lorem ultricies mollis. Sed non bibendum orci. Cras non mi sagittis, vehicula erat ut, posuere orci
+                        img(src="./img/Button3.png",type="button", alt="")
+            .row
+                .col-sm-8.col-md-8.col-lg-10.offerbtn.p-sm-0.pl-lg-5
+                    img(src="./img/offer.png", alt="")
+            .row 
+                .col-sm-12.col-md-6.col-lg-4 
+                    .card1
+                        .head   
+                            h3 Basic
+                            p Save 10%
+                        img(src="./img/Price.png", alt="")
+                        ul 
+                            li Ut consequat rhoncus nisi vel
+                            li Class aptent taciti sociosqu
+                            li Proin non mattis augue. In vehicula
+                        img(src="./img/Calculator2.png",type="button", id="calc" alt="")     
+                .col-sm-12.col-md-6.col-lg-4 
+                    .card1
+                        .head   
+                            h3 Basic
+                            p.save Save 10%
+                        img(src="./img/Price (2).png", alt="")
+                        ul 
+                            li Ut consequat rhoncus nisi vel
+                            li
+                                b Class aptent taciti sociosqu
+                            li Proin non mattis augue. In vehicula 
+                        img(src="./img/Calculator2.png",type="button", id="calc" alt="")     
+                .col-sm-12.col-md-6.col-lg-4 
+                    .card1
+                        .head   
+                            h3 Basic
+                            p Save 10%
+                        img(src="./img/Price (1).png", alt="")
+                        ul 
+                            li Ut consequat rhoncus nisi vel
+                            li Class aptent taciti sociosqu
+                            li Proin non mattis augue. In vehicula 
+                        img(src="./img/Calculator2.png",type="button", id="calc" alt="")
+            .row 
+                .col-sm-12.col-md-6.col-lg-12
+                    h1 We provide future of delivery   
+            .row 
+                .col-sm-12.col-md-6.col-lg-12.googlemap
+                    iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5816.440334329101!2d27.908735549559633!3d43.20487126119113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a453467ccaf5f9%3A0xfab2f6fe389062c4!2sStarbucks!5e0!3m2!1sen!2sbg!4v1639926197046!5m2!1sen!2sbg" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy") 
+
+
+
+
+
+
+                        
+
+
+
+
+    footer 
+        include temp/info
+
+       
+        
+        

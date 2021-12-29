@@ -1,0 +1,98 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style/style.css")
+        link(rel="stylesheet", href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="stylesheet", href="./node_modules/@splidejs/splide/dist/css/splide.min.css")
+        title Document
+    header 
+        header
+        include temp/nav
+        include temp/mixing
+        -const text  = { h3:"Quote" , p:"Home / About / Quote" }
+        +info(text)    
+    body 
+        .container 
+            .row.logform 
+                .col-sm-12.col-md-6.col-lg-12.form
+                    form
+                        .user
+                            label(for="name") Full Name
+                            input(type="name" id="name")
+                        .user
+                            label(for="email") Email
+                            input(type="email" id="email")           
+                        .user
+                            label(for="number") Phone
+                            input(type="number" id="number")
+            .row.logform  
+                .col-sm-12.col-md-6.col-lg-12.form 
+                    form
+                        .user
+                            label(for="text") Subject
+                            input(type="name" id="text")
+                        .user
+                            label(for="text") Delivery City
+                            input(type="email" id="text")           
+                        .user
+                            label(for="text") City of Departure
+                            input(type="number" id="text") 
+            .row.logform  
+                .col-sm-12.col-md-6.col-lg-12.type 
+                     form
+                        .user
+                            label(for="text") Subject
+                            input(type="name" id="text")
+                        .user
+                            label(for="text") Delivery City
+                            input(type="email" id="text")
+            .row.logform 
+                .col-sm-12.col-md-6.col-lg-12.measure
+                    form
+                        .user
+                            label(for="Weight") Weight
+                            input(type="number" id="Weight")
+                        .user
+                            label(for="Height") Height
+                            input(type="number" id="Height")
+                        .user
+                            label(for="Width") Width
+                            input(type="number" id="Width")
+                        .user
+                            label(for="Lenght") Lenght
+                            input(type="number" id="Lenght")    
+            .row.logform  
+                .col-sm-12.col-md-6.col-lg-12.btnradio 
+                    .btn
+                        input(type="radio" name="text")
+                        label(for="") Fragille
+                    .btn    
+                        input(type="radio" name="text")
+                        label(for="") Express delivery
+                    .btn    
+                        input(type="radio" name="text")
+                        label(for="") Insurance 
+                    .btn    
+                        input(type="radio" name="text")
+                        label(for="") Packaging 
+            .row
+                .col-sm-12.col-md-6.col-lg-12.Appointment
+                    img(src="./img/Button2.png",type="button" alt="")            
+            .row.lastsection
+                .col-sm-12.col-md-6.col-lg-6.Quality
+                    .servicess
+                        h4 Quality services
+                        img(src="./img/Services.png", type="button" alt="")   
+                .col-sm-12.col-md-6.col-lg-6.transportation
+                    .company
+                        h4 Rolso transportation company    
+                        p Nullam dui augue, bibendum in maximus vel, blandit placerat ipsum. Praesent
+    footer 
+        include temp/info                    

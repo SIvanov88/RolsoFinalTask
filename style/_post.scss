@@ -1,0 +1,244 @@
+@import './position';
+
+.post-image {
+    @include elementPostion(center,center,row);
+    position:relative;
+    margin-top: -300px;
+    width: 1200px;
+    margin-left: -90px;
+    img{
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+.post-main {
+    display:flex;
+    justify-content: center;
+}
+
+.post-div{
+    margin-right:50px;
+    ul{
+        padding-left: 0px;
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+    
+    .post-headline{
+        h4{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 58px;
+            line-height: 92px;
+            color: #19456B;
+    
+        }
+        .logistic-post{
+            @include elementPostion(flex-start,flex-start,row);
+            padding-left: 0px;
+            img{
+                padding-left:15px;
+                padding-right: 10px;
+            }
+            p{
+                margin-right: 10px;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px
+            }
+        }
+    }
+    .post-paragraph {
+        p{
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 25px;
+            color: #382933;
+        }
+    }
+    .post-p{
+        @include elementPostion(center,center,row);
+        padding: 0px;
+        padding-left: 0px;
+        height: 15px;
+        margin-bottom: 20px;
+        margin-right: 220px;
+        width: 600px;
+        img{
+            padding: 0px;
+            height: 15px;
+            padding-top: -2px;
+        }
+        p{
+            padding-left: 10px;
+            padding-top: 3px;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 25px;
+            color: #382933;
+            width: 600px;
+            height: 15px;
+        }
+    }
+    .text-border-left {
+        border-left: 10px solid #00008E;
+        padding: 30px;
+        p:first-child{     
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 25px;
+            }
+        p:nth-child(2){
+            font-family: 'Poppins', sans-serif;
+            font-style: italic;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            color: #19456B;
+        } 
+        p:nth-child(3){
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 25px;
+            color:#0F0FB1;
+        }         
+    }
+    .post-tags{
+        @include elementPostion(flex-start,flex-start,row);
+        padding: 0px;
+        img{
+            padding-left:0px;
+            padding-right: 10px;
+            margin-top: 5px;
+        }
+        p{
+            margin-top: 2px;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color:#6D6D6D;      
+        }
+    }
+    .post-inputdata{
+        box-shadow: 5px 5px 10px 10px rgba(178, 178, 197, 0.85);
+        margin-bottom:100px;
+        h3{
+            max-width: 500px;
+            padding:10px;
+            padding-left:65px;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 38px;
+            line-height: 52px;
+            color: #19456B;
+        }
+        .post-data-pic{
+            @include elementPostion(center,center,row);
+            height: 60px;
+            img{
+                width: 230px;
+                height:60px;
+                object-fit: cover;
+                padding-left: 65px;
+                margin-right: 10px;
+            }
+            .post-text-pic{
+                @include elementPostion(center,center,column);
+                .post-title-info {
+                    @include elementPostion(center,center,row);
+                    margin-right: 210px;
+                    p{
+                        font-family: 'Poppins', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px; 
+                        color:#19456B;
+                    }
+                    .post-list{
+                        @include elementPostion(flex-start,flex-start,row);
+                        img{
+                            width: 75px;
+                            height: 10px;
+                            object-fit: cover;
+                            margin-top: 5px;
+                            margin-right: 2px;
+                        } 
+                        p{ 
+                            font-family: 'Rubik', sans-serif;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            
+                            color:#6D6D6D;
+                        }
+                    }
+                }
+                p{
+                    font-family: 'Rubik', sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    color:#382933;
+                }
+            }
+        }
+        .form {
+            @include elementPostion(center,center,row);
+            padding: 10px;
+            height: 200px;
+            padding-bottom: 20px;
+            .post-data{
+                margin-left: 10px;
+                @include elementPostion(center,center,row);
+                .person{
+                    label{
+                        display: block;
+                    }
+                    input{
+                        width: 250px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        .messege {
+            label{
+                display: block;
+                margin-left:53px;
+            }
+            textarea{
+                width: 510px;
+                margin-left:53px;
+            }
+        }
+        .post-appointments{
+            margin-left:240px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+}
+
+
+
+
+

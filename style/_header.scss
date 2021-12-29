@@ -1,0 +1,236 @@
+@import './position';
+
+.container-fluid{
+    background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+
+}
+
+
+.logo{
+    
+    padding: 2em;
+    
+}
+
+img{
+    padding-left: 10em;
+}
+
+.buttons{
+    padding-left: 5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.number{
+    padding-left: 18.8em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.calc{
+    background: #0F0FB1;
+    color: white;
+    border: 0px;
+    width:10em;
+    margin-right: 1em;
+    &:hover{
+        transition: .7s;
+        transform: scale(1.1);
+    }
+    
+} 
+
+.track{
+    background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+    color: white;
+    border: 1px solid white;
+    width:10em;
+    &:hover{
+        transition: .7s;
+        transform: scale(1.1);
+    }
+    
+}
+
+.nav-bar{
+   @include elementPostion (center,center,row);
+   font-family: 'Poppins', sans-serif;
+   list-style-type: none;
+   a{
+       color:white;
+   }
+}
+
+.line{
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+hr{
+    height: 3px;
+    color: white;
+}
+
+footer{
+    background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+}
+
+.social{
+    width: 20em;
+    margin-left: 140px;
+    @include elementPostion (center,center,row);
+    img{
+        width: 65px;
+        height: 65px;
+        padding: 0px;
+        margin: 20px;
+    }
+    
+}
+
+.info{
+    padding: 2em;
+    img{
+        margin-bottom: 50px;
+    }
+    p{
+        text-align: left;
+        color: white;
+        max-width: 300px;
+        margin-left: 170px;
+        margin-bottom: 50px;
+        font-family: 'Poppins', sans-serif;
+     }
+    
+}
+
+.info-list{
+    margin-left: 5em;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    @include elementPostion (center,right,column);
+    list-style-image: url(../img/caret-right.png);
+    color: white;
+    li{
+        margin-bottom: 10px;
+    }
+}
+
+form{
+    @include elementPostion (center,center,row);
+    margin-right: 10em;
+    img{
+        height: 35px;
+        margin: 0px;
+        margin-right: 40px;
+        margin-left: 0px;
+        padding-left: 0px;
+        
+    }
+}
+
+
+
+.Subscribe{
+    p{
+        color: white;
+        margin-bottom: 30px;
+    }
+    input{
+        background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+        border: 1px solid white;
+        border-right: 0px;
+        height: 35px;
+        width: 300px;
+        margin: 0px;
+        
+    }
+}
+
+.boxes{
+    @include elementPostion (flex-start,flex-start,row);
+    background:  #FFFFFF1A;
+    height: 150px;
+    padding-top: 50px;
+    .contact{
+        padding: 5px;
+        margin: 10px;
+       p{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        line-height: 10px;
+       }
+       p:first-child{
+         opacity: .4;
+       }
+    }
+}
+
+
+.secondboxes{
+    @include elementPostion (flex-start,flex-start,row);
+    background:  #FFFFFF33;
+    height: 150px;
+    padding-right: 100px;
+    padding-top: 50px;
+    .contact{
+        padding: 5px;
+       
+       p{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        line-height: 10px;
+        width: 300px;
+       }
+       p:first-child{
+         opacity: .4;
+       }
+    }
+}
+
+.thurdboxes {
+    @include elementPostion (flex-start,flex-start,row);
+    background: #FFFFFF1A;
+    height: 150px;
+    padding-top: 50px;
+    .contact{
+        padding: 5px;
+        margin: 10px;
+       p{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        line-height: 10px;
+       }
+       p:first-child{
+         opacity: .4;
+       }
+    }
+}
+
+
+
+footer{
+    @include elementPostion (center,center,row);
+    p{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        opacity: .4;
+    }
+}
+
+.Subscribe{
+    padding-top: 2.6em;
+}
+
+.last{
+    @include elementPostion (center,center,row);
+    p{
+        text-align: center;
+    }
+}
+
+.boxrow{
+    margin-bottom: 50px;
+}

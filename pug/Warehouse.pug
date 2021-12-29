@@ -1,0 +1,107 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style/style.css")
+        link(rel="stylesheet", href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+
+        title Document
+
+    header 
+        include temp/nav
+        include temp/mixing
+        -const text  = { h3:"Warehouse" , p:"Home / About Us / Warehouse" }
+        +info(text)      
+    body 
+        .container 
+            .row 
+                .col-6.warehousing
+                    h4 Inland Empire warehousing
+                    .map-sings
+                        img(src="./img/map-signs.png", alt="")
+                        p 10359 Nobel Court, Jurupa Valley, CA
+                .col-6.Building
+                    form
+                        .build 
+                            p Building information
+                        img(src="./img/list.png", alt="")
+            .row 
+                .col-6.image6
+                    img(src="./img/image6.jpg", alt="")
+                .col-4   
+                    .incons 
+                        img(src="./img/calendar (1).png", alt="")
+                        .img_text
+                            p 5 am - 10pm
+                            p Hours of opening   
+                    .incons 
+                        img(src="./img/quality.png", alt="")
+                        .img_text
+                            p A-Trap compliant
+                            p Security    
+                    .incons 
+                        img(src="./img/celsius.png", alt="")
+                        .img_text
+                            p Temperature range
+                            p Ambient      
+                    .incons 
+                        img(src="./img/warehouse.png", alt="")
+                        .img_text
+                            p A-Trap compliant
+                            p Size                                                
+            .row 
+                .col-6.text-paragraph
+                    p In hac habitasse platea dictumst. In rutrum tincidunt tincidunt. Maecenas finibus vitae est blandit tempus. Proin at dolor dignissim, sagittis leo eget, fermentum sem. Etiam a dapibus nisl. Mauris rhoncus vulputate ornare. Nullam venenatis cursus malesuada. Proin quis libero non lacus bibendum tempor et a ex.
+                    p Cras non ultricies sapien, eu viverra elit. Vivamus at rutrum ex, in blandit nibh. Nullam sit amet rutrum lorem. Pellentesque elementum, urna a ullamcorper fermentum, felis quam iaculis orci, eu iaculis libero ligula varius nibh. Ut vel est ut nulla maximus iaculis vel ac ligula.
+                    p Suspendisse potenti. Sed eget velit est. Aliquam ac est sed nisl blandit interdum non in dui. Fusce feugiat quam sit amet magna pretium, eu scelerisque felis ultrices. Curabitur posuere augue at tellus condimentum tempus. Praesent in blandit ex. Curabitur dignissim, ligula id tincidunt auctor, turpis massa dictum magna, sollicitudin sagittis est quam ac diam.   
+                    .christpmas-pic
+                        img(src="./img/image3.jpg", alt="")
+                        img(src="./img/image3.jpg", alt="")
+                    p Morbi non metus vitae turpis condimentum suscipit. Morbi bibendum, ligula a commodo imperdiet, mauris justo pretium erat, at cursus risus nisi eget nisl. Mauris sit amet sem placerat, elementum enim non, faucibus lacus.
+                    p Nam auctor risus ut libero interdum molestie. Aliquam rutrum finibus sollicitudin. Nam vel maximus felis. Fusce iaculis pharetra mi, ac vehicula velit. In hac habitasse platea dictumst. Quisque egestas libero vel efficitur cursus. Quisque vulputate aliquam facilisis. Vestibulum placerat bibendum facilisis.
+                    .chek-p 
+                        img(src="./img/check-circle.png", alt="")
+                        p Maecenas pretium interdum mauris sed sollicitudin
+                    .chek-p 
+                        img(src="./img/check-circle.png", alt="")
+                        p Sed interdum lacinia sem, sed euismod purus rhoncus a
+                    .chek-p 
+                        img(src="./img/check-circle.png", alt="")
+                        p Maecenas pretium interdum mauris sed sollicitudin
+            .row 
+                .col-12.titel-Our-best-services 
+                    h2 Our best services
+            .row.poster
+                .images.col-4 
+                    img(src="./img/image1.jpg", alt="")
+                    img(src="./img/icon (3).png", alt="")
+                    .textinfo
+                        h4 Road Freight
+                        p Nullam dui augue, bibendum in maximus vel, blandit placerat ipsum. Praesent
+                .images.col-4 
+                    img(src="./img/image3.jpg", alt="")
+                    img(src="./img/icon (1).png", alt="")
+                    .textinfo
+                        h4 Road Freight
+                        p Nullam dui augue, bibendum in maximus vel, blandit placerat ipsum. Praesent
+                .images.col-4 
+                    img(src="./img/image5.jpg", alt="")
+                    img(src="./img/icon (2).png", alt="")
+                    .textinfo 
+                        h4 Train Freight
+                        p Nullam dui augue, bibendum in maximus vel, blandit placerat ipsum. Praesent    
+            .row 
+                .col-12.slides-row 
+                    img(src="./img/slides.png", alt="")
+
+
+    footer 
+        include temp/info                
+
+            

@@ -1,0 +1,79 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style/style.css")
+        link(rel="stylesheet", href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        title Document
+
+    header
+        include temp/nav
+        include temp/mixing
+        -const text  = { h3:"Services" , p:"Home / Services" }
+        +info(text)
+    body
+        
+            .container
+                .row.poster
+                    .images.col-4 
+                        img(src="./img/image1.jpg", alt="")
+                        img(src="./img/icon (3).png", alt="")
+                        .textinfo
+                            h4 Road Freight
+                            p Nullam dui augue, bibendum in maximus vel, blandit placerat ipsum. Praesent
+                    .images.col-4 
+                        img(src="./img/image3.jpg", alt="")
+                        img(src="./img/icon (1).png", alt="")
+                        .textinfo
+                            h4 Road Freight
+                            p Nullam dui augue, bibendum in maximus vel, blandit placerat ipsum. Praesent
+                    .images.col-4 
+                        img(src="./img/image5.jpg", alt="")
+                        img(src="./img/icon (2).png", alt="")
+                        .textinfo 
+                            h4 Train Freight
+                            p Nullam dui augue, bibendum in maximus vel, blandit placerat ipsum. Praesent
+                .row.poster
+                    .images.col-4 
+                        img(src="./img/image6.jpg", alt="")
+                        img(src="./img/icon (4).png", alt="")
+                        .textinfo
+                            h4 Air Freight
+                            p Nullam dui augue, bibendum in maximus vel, blandit placerat ipsum. Praesent
+                    .images.col-4 
+                        img(src="./img/image2.jpg", alt="")
+                        img(src="./img/icon (3).png", alt="")
+                        .textinfo
+                            h4 Shipping Freight
+                            p Nullam dui augue, bibendum in maximus vel, blandit placerat ipsum. Praesent
+                    .images.col-4 
+                        img(src="./img/image1.jpg", alt="")
+                        img(src="./img/icon (3).png", alt="")
+                        .textinfo  
+                            h4 Shipping Freight
+                            p Nullam dui augue, bibendum in maximus vel, blandit placerat ipsum. Praesent
+                .row.num_bar
+                    .col-sm-12.col-md-12.col-lg-12
+                        img(src="./img/pagination.png", alt="")             
+    
+    
+    
+    
+    
+    
+    footer
+        include temp/info  
+       
+
+            
+                                        
+        
+        
+
+        

@@ -1,0 +1,64 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style/style.css")
+        link(rel="stylesheet", href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+
+        title Document
+    header
+        include temp/nav
+        include temp/mixing
+        -const text  = { h3:"Projects" , p:"Home / Services / Projects" }
+        +info(text)    
+    body 
+        .container 
+            .row 
+                .col-12.navigation 
+                    ul 
+                        li 
+                            a(href="") All
+                        li 
+                            a(href="") Road
+                        li 
+                            a(href="") Shipping
+                        li 
+                            a(href="") Air
+                        li 
+                            a(href="") Train   
+        .container.galery_grid   
+            .row.galey_pic
+                .col-5
+                    img(src="./img/image1.jpg", alt="" id="first")
+                    .text_content 
+                        h3 Rolso transportation company
+                        p Nullam dui augue, bibendum in maximus vel, blandit
+                .col-3
+                    img(src="./img/image3.jpg", alt="")
+                .col-4
+                    img(src="./img/image6.jpg", alt="")
+            .row.galey_pic
+                .col-4
+                    img(src="./img/image1.jpg", alt="" id="first")
+                .col-3
+                    img(src="./img/image3.jpg", alt="")
+                .col-5
+                    img(src="./img/image6.jpg", alt="")
+            .row 
+                .col-12.gal_button
+                    img(src="./img/Button2.png", alt="")      
+
+
+    footer 
+        include temp/info                    
+               
+                                     
+                         
+                          
+                                                         

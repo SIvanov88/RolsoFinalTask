@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAA;ECDN,OAAO,EAAE,IAAI;EACb,eAAe,EDCS,UAAU;ECAlC,WAAW,EDAwB,UAAU;ECC7C,cAAc,EDDgC,GAAG;CACpD",
+    "sources": [
+        "Warehouse.scss",
+        "_position.scss"
+    ],
+    "names": [],
+    "file": "Warehouse.css"
+}

@@ -1,0 +1,204 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.form form .user {
+  margin-left: 20px;
+}
+
+.form form .user label {
+  display: block;
+}
+
+.type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.type form .user {
+  padding-left: 15px;
+}
+
+.type form .user label {
+  display: block;
+}
+
+.type form .user input {
+  width: 300px;
+}
+
+.type form .user:nth-child(2) {
+  padding-left: 10px;
+}
+
+.measure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.measure form .user {
+  padding-left: 15px;
+}
+
+.measure form .user label {
+  display: block;
+}
+
+.measure form .user input {
+  width: 142px;
+}
+
+.measure form .user:nth-child(2) {
+  padding-left: 10px;
+}
+
+.Appointment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-right: 380px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.Appointment img {
+  width: 300px;
+}
+
+.btnradio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-right: 150px;
+}
+
+.btnradio .btn {
+  padding-right: 50px;
+}
+
+.logform {
+  padding-left: 100px;
+}
+
+.Quality .servicess {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.5) 0%, rgba(1, 114, 128, 0.5) 100%);
+  padding: 40px;
+}
+
+.Quality .servicess h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: normal;
+  color: #FFFFFF;
+  width: 60px;
+  padding-left: 160px;
+}
+
+.transportation {
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+}
+
+.transportation .company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+}
+
+.transportation .company h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: normal;
+  color: #FFFFFF;
+  width: 350px;
+}
+
+.transportation .company p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.lastsection {
+  margin-bottom: 100px;
+}
+/*# sourceMappingURL=Quote.css.map */

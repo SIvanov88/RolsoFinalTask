@@ -1,0 +1,88 @@
+@import './position';
+
+
+.faqs{
+    p{
+        width: 550px;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 25px;
+        color: #382933;
+    }
+    .faqs-texts{
+        @include elementPostion(flex-start,flex-start,row);
+        p{
+            width: 400px;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            color: #19456B;
+        }
+       
+    }
+}
+
+.faqs-icon{
+    @include elementPostion(flex-start,flex-start,row);
+    margin-bottom:50px;
+    img{
+        width:250px;
+        height:100px;
+    }
+    .faqs-phone-text{
+        box-shadow: 9px 10px 10px rgba(178, 178, 197, 0.85);
+        height:100px;
+        width:250px;
+        padding: 15px;
+        
+        p:first-child{
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 20px;
+        }
+        p:nth-child(2){
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 20px;
+            color:#19456B;
+            width:200px;
+       }
+    }
+}
+
+.faqs-service{
+    margin-bottom: 100px;
+    .faqs-info{
+        @include elementPostion(flex-start,flex-start,column);
+        text-align: left;
+        margin-bottom: 50px;
+        width: 100%;
+        background: linear-gradient(121.38deg, rgba(0, 0, 142, 0.7) 13.19%, rgba(1, 114, 128, 0.7) 46.23%, rgba(255, 255, 255, 7e-05) 64.85%);
+        padding: 30px;
+        h2{
+            font-family: 'Popins', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            color: #FFFFFF;
+        }
+        p{
+            width: 450px;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            color: #E1E1E1;
+        }
+        img{
+            margin-left: -160px;
+        }
+    }
+}

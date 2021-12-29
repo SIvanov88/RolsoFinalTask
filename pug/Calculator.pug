@@ -1,0 +1,71 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style/style.css")
+        link(rel="stylesheet", href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+
+
+        title Document
+    header 
+        include temp/nav
+        include temp/mixing
+        -const text  = { h3:"Calculator" , p:"Home / Services / Calculator" }
+        +info(text)    
+    
+    
+    
+    
+    body
+        .container
+            .row
+                .col-6.head_row 
+                    h1 Calculation form
+                    p Morbi at facilisis turpis. Donec pulvinar quam sed libero vehicula posuere. Fusce ligula ipsum, rhoncus non
+            .row.distance 
+                .col-sm-12.col-md-6.col-lg-6.distance 
+                    form
+                        .field
+                            label(for="number") Truckload type
+                            input(type="number" id="number")
+                        .field
+                            label(for="number") Type of service
+                            input(type="number" id="number")
+                        .field
+                            label(for="number") Distance (km)
+                            input(type="number" id="number") 
+            .row.distance 
+                .col-sm-12.col-md-6.col-lg-6.Lenght 
+                    form
+                        .field
+                            label(for="number") Weight
+                            input(type="number" id="number")
+                        .field
+                            label(for="number") Height
+                            input(type="number" id="number")
+                        .field
+                            label(for="number") Width
+                            input(type="number" id="number")
+                        .field
+                            label(for="number") Lenght
+                            input(type="number" id="number") 
+            .row 
+                .col-12.app_button
+                    img(src="./img/Button2.png", type="button" alt="") 
+            .row 
+                .col-12.styff_info
+                    h2 Quality services
+                    p Aenean elementum justo et elit imperdiet tincidunt. Aliquam tristique nunc quis mollis pretium. Etiam ut viverra nisl. Nunc ac
+                    img(src="./img/Button (1).png", alt="")                               
+
+
+    footer 
+        include temp/info                                       
+
+                

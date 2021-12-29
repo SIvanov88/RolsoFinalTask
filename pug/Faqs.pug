@@ -1,0 +1,66 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style/style.css")
+        link(rel="stylesheet", href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+
+
+        title Document
+
+    header 
+        include temp/nav
+        include temp/mixing
+        -const text  = { h3:"FAQs" , p:"Home / About / FAQs" }
+        +info(text)    
+
+
+    body 
+        .container 
+            .row 
+                .col-6.faqs
+                    .faqs-texts
+                        p The right price for you, whoever you are?
+                        img(src="./img/icon8.png", alt="")
+                    p Etiam id quam lacinia, vulputate neque nec, mollis quam. Donec ut quam urna. Proin bibendum risus quis sem ultricies, et vulputate erat pulvinar. Cras posuere leo nisi, non scelerisque tortor congue nec. Vivamus quis urna ac velit dapibus bibendum vitae a nibh. Suspendisse id libero eros. In dapibus bibendum sem sit amet feugiat.
+                    .faqs-texts
+                        p The right price for you, whoever you are?
+                        img(src="./img/icon9.png", alt="")
+                    .faqs-texts 
+                        p Transporterium is the biggest transportation company
+                        img(src="./img/icon9.png", alt="")
+                    .faqs-texts 
+                        p Powerfull Features of Transporterium
+                        img(src="./img/icon9.png", alt="")
+                    .faqs-texts 
+                        p Awesome app which works for you
+                        img(src="./img/icon9.png", alt="") 
+                .col-6.faqs-icons 
+                    .faqs-icon
+                        img(src="./img/icon10.png", alt="")
+                        .faqs-phone-text 
+                            p Phones
+                            p +8 (495) 989 20 11 +8 (495) 969 60 12 
+                    .faqs-icon
+                        img(src="./img/icon12.png", alt="")
+                        .faqs-phone-text 
+                            p Address
+                            p 4621 Hill Croft Farm Road 
+                    .faqs-icon
+                        img(src="./img/icon11.png", alt="")
+                        .faqs-phone-text 
+                            p Phones
+                            p rolso@site.com rolso@support.com
+            .row.faqs-service 
+                .col-12.faqs-info
+                    h2 Quality services
+                    p Aenean elementum justo et elit imperdiet tincidunt. Aliquam tristique nunc quis mollis pretium. Etiam ut viverra nisl. Nunc ac
+                    img(src="./img/Button (1).png", alt="")
+    footer 
+        include temp/info                                                           

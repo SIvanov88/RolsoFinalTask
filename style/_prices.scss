@@ -1,0 +1,186 @@
+@import './position';
+
+
+.prices-offerbtn{
+    text-align: center;
+    padding-left: 50px;
+}
+
+.prices-card{
+    box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+    margin-bottom: 100px;
+    padding: 30px;
+    height: 500px;
+    .head{
+        @include elementPostion(space-between,space-evenly,row);
+        max-width: 300px;
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            color: #19456B; 
+            
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: bold; 
+            color: #017280;
+        }
+        .save{
+            color:#00008E;
+        }
+    }
+    img{
+        max-width: 400px;
+        padding: 0px;
+    }
+    ul{
+        padding: 30px;
+        max-width: 300px;
+        text-align: left;
+        list-style-image: url(../img/check_pic.jpg);
+    }
+    #calc{
+        padding: 20px;
+        padding-left: 12px;
+    }
+  
+}
+
+.prices-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 52px;
+        line-height: 66px;
+        color: #19456B;
+        text-align: center;
+        width: 590px;
+    }
+}
+
+.prices-pragraph {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    p{
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 25px;
+        color: #382933;
+        text-align: center;
+        width: 750px;
+    }
+}
+
+.prices.btn{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    img{
+        margin-right: 150px;
+    }
+}
+
+
+.prices-card-horizontal{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 5px 10px rgba(178, 178, 197, 0.85);
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    .head{
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 30px;
+            color: #19456B;
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            color:#017280;
+        }
+    }
+    .prices-ul-list  {
+        ul{
+            list-style-image:url(../img/check_pic.jpg);
+            li{
+                width: 400px;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 30px
+            }
+        }
+    }
+    .price-pic-buynow{
+        img{
+            object-fit: cover;
+            width:300px;
+        }
+    }
+}
+
+.prices-card-horizontal2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: linear-gradient(135deg, #00008E 0%, #017280 100%);
+    box-shadow: 5px 5px 5px 10px rgba(178, 178, 197, 0.85);
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    .head{
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 30px;
+            color: white;
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            color:white;
+        }
+    }
+    .prices-ul-list  {
+        ul{
+            list-style-image:url(../img/check1.2.png);
+            color:white;
+            li{
+                width: 400px;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 30px;
+            }
+        }
+    }
+    .price-pic-buynow{
+        img{
+            object-fit: cover;
+            width:300px;
+        }
+    }
+}
+   

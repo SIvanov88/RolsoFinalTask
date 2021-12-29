@@ -1,0 +1,117 @@
+@import './position';
+
+.form{
+    @include elementPostion(center,center,row);
+    form{
+        .user{
+            margin-left: 20px;
+            label{
+                display: block;
+            }
+        }
+    }
+}
+
+.type{
+    @include elementPostion(center,center,row);
+    margin-bottom: 100px;
+    form{
+        .user{
+            padding-left: 15px;
+            label{
+                display: block;
+            }
+            input{
+                width: 300px;
+            }
+        }
+        .user:nth-child(2){
+            padding-left: 10px;
+        }
+    }
+}
+
+.measure{
+    @include elementPostion(center,center,row);
+    form{
+        .user{
+            padding-left: 15px;
+            label{
+                display: block;
+            }
+            input{
+                width: 142px;
+            }
+        }
+        .user:nth-child(2){
+            padding-left: 10px;
+        }
+    }
+}
+
+.Appointment{
+    @include elementPostion(flex-end,flex-end,row);
+    padding-right: 380px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    img{
+        width: 300px
+    }
+}
+
+.btnradio {
+    @include elementPostion(center,space-around,row);
+    padding-right: 150px;
+    .btn{
+        padding-right: 50px;
+       
+    }
+    
+}
+
+.logform {
+    padding-left: 100px;
+}
+
+.Quality{
+    .servicess{
+        @include elementPostion(flex-start,flex-start,column);
+        background: linear-gradient(135deg, rgba(0, 0, 142, 0.5) 0%, rgba(1, 114, 128, 0.5) 100%);
+        padding: 40px;
+        h4{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: normal;
+            color:#FFFFFF;
+            width: 60px;
+            padding-left: 160px;
+        }
+    }
+}
+
+.transportation{
+    background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+    .company{
+        @include elementPostion(flex-start,flex-start,column);
+        padding: 40px;
+        h4{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: normal;
+            color:#FFFFFF;
+            width: 350px;
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            color: white;
+        }
+    }
+
+}
+
+.lastsection{
+    margin-bottom: 100px;
+}

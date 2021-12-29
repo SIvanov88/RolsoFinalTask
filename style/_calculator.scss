@@ -1,0 +1,98 @@
+@import './position';
+
+
+.head_row{
+    @include elementPostion(center,center,column);
+    width: 100%;
+    margin-bottom: 30px;
+    p{
+        max-width: 550px;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 25px;
+        text-align: center;
+    }
+}
+
+.distance{
+    @include elementPostion(center,center,row);
+    width: 100%;
+    margin-bottom: 30px;
+    form{
+        margin-left: 200px;
+        .field{
+            margin-right: 10px;
+            label{
+                display: block;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+            }
+            input{
+                width: 300px;
+            }
+        }
+    }
+}
+
+.Lenght{
+    @include elementPostion(center,center,row);
+    width: 100%;
+    margin-bottom: 50px;
+    form{
+        margin-left: 200px;
+        .field{
+            margin-right: 10px;
+            label{
+                display: block;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+            }
+            input{
+                width: 222px;
+            }
+        }
+    }
+}
+
+
+.app_button{
+    @include elementPostion(center,center,row);
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-right: 200px;
+}
+
+.styff_info{
+    @include elementPostion(flex-start,flex-start,column);
+    text-align: left;
+    margin-bottom: 50px;
+    width: 100%;
+    background: linear-gradient(123.62deg, rgba(0, 0, 142, 0.6) 31.11%, rgba(255, 255, 255, 6e-05) 79.13%);
+    padding: 30px;
+    h2{
+        font-family: 'Popins', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        color: #FFFFFF;
+    }
+    p{
+        width: 450px;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: #E1E1E1;
+    }
+    img{
+        margin-left: -160px;
+    }
+}

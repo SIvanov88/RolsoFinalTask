@@ -1,0 +1,51 @@
+@i iframe {
+  width: 100%;
+}
+
+.contanct {
+  border: 1px solid;
+  max-width: 400px;
+  max-height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.contanct img {
+  width: 300px;
+  height: 100px;
+  margin-left: -150px;
+}
+
+.contanct .phone_number {
+  padding: 10px;
+}
+
+.contanct .phone_number p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  color: #19456B;
+}
+
+.contanct .phone_number h6 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: #382933;
+}
+/*# sourceMappingURL=contacts.css.map */
