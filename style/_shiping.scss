@@ -1,0 +1,224 @@
+@import './position';
+
+.form-pic-row{
+    @include elementPostion(flex-start,flex-start,row);
+    .shiping-form-main{
+        padding-left: 100px;
+    }
+}
+
+.galery-shiping-row{
+    @include elementPostion(flex-start,flex-start,column);
+    img
+    .shiping-galery-main{
+        object-fit: cover;
+        width: 300px;
+        height:500px;
+        img{
+            padding-left: 0px;
+        }
+    }
+    .shiping-galery {
+        @include elementPostion(flex-start,flex-start,row);
+        margin-left:150px;
+        img{
+            object-fit: cover;
+            width: 159px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+    }
+    .shiping-text-p{
+        @include elementPostion(center,center,column);
+        padding-left: 470px;
+        padding-top:10px;
+        width: 500px;
+        p{
+            width:620px;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 25px;
+            color: #382933;
+        }
+    }
+    .shipin-chek-text{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        @include elementPostion(flex-start,flex-start,row);
+        .shiping-text-one{
+            h4{
+                padding-left: 160px;
+                padding-bottom: 30px;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 22px;
+                line-height: 30px;
+                color: #19456B;
+            }
+            .shiping-chek-p{
+                @include elementPostion(flex-start,flex-start,row);
+                width:100%;
+                p{
+                    padding-left: 10px;
+                    font-family: 'Rubik', sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 15px;
+                    color: #382933;
+                    width: 220px;
+                }
+            }
+        }
+    }
+    .Trucks {
+        h3{
+            padding-left: 160px;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 52px;
+            color: #19456B;
+        }
+        .pic-shiping-two{
+            @include elementPostion(flex-start,flex-start,row);
+            margin-left: 150px;
+            width: 100%;
+            img{
+                object-fit: cover;
+                width:330px;
+                padding-left: 10px;
+            }
+        }
+    }
+    .headline-truck {
+        @include elementPostion(flex-start,flex-start,row);
+        padding-left: 10px;
+        padding-top: 20px;
+        width: 100%;
+        .truck-text{
+            padding-left: 160px;
+            h5{
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 36px;
+                color:#19456B; 
+            }
+            p{
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 25px;
+            }
+        }
+    }
+}
+.shipid-text-head {
+    width: 100%;
+    h2{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    p{
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 20px;
+        color:#382933;
+    }
+}
+
+.shiping-card1{
+    box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+    margin-bottom: 100px;
+    padding: 30px;
+    height: 500px;
+    margin-top: 50px;
+    .head{
+        @include elementPostion(space-between,space-evenly,row);
+        max-width: 300px;
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            color: #19456B; 
+            
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: bold; 
+            color: #017280;
+        }
+        .save{
+            color:#00008E;
+        }
+    }
+    img{
+        max-width: 400px;
+        padding: 0px;
+    }
+    ul{
+        padding: 30px;
+        max-width: 300px;
+        text-align: left;
+        list-style-image: url(../img/check_pic.jpg);
+    }
+    #calc{
+        padding: 20px;
+        padding-left: 12px;
+    }
+  
+}
+
+.shiping-form-main{
+    float: right;
+    form{
+        margin-bottom: 10px;
+        width: 300px;
+        .form-blogs {
+            box-shadow: 9px 10px 10px rgba(178, 178, 197, 0.85);
+            width: 250px;
+            height: 60px;
+            margin-bottom: 10px;
+            p{
+                text-align: left;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 14px;
+                line-height: 24px;
+                padding: 10px;
+                color:#19456B;
+            }
+        }
+        img{
+            height:50px;
+        }
+    }
+    .blog-text{
+        p{
+            width:400px;
+            b{
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 18px;
+                line-height: 24px;
+                color: #19456B;
+            }
+        }
+    }
+}

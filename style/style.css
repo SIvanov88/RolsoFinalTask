@@ -14946,4 +14946,365 @@ form img {
      object-fit: cover;
   width: 300px;
 }
+
+.form-pic-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.form-pic-row .shiping-form-main {
+  padding-left: 100px;
+}
+
+.galery-shiping-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.galery-shiping-row img .shiping-galery-main {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  height: 500px;
+}
+
+.galery-shiping-row img .shiping-galery-main img {
+  padding-left: 0px;
+}
+
+.galery-shiping-row .shiping-galery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 150px;
+}
+
+.galery-shiping-row .shiping-galery img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 159px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.galery-shiping-row .shiping-text-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 470px;
+  padding-top: 10px;
+  width: 500px;
+}
+
+.galery-shiping-row .shiping-text-p p {
+  width: 620px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  color: #382933;
+}
+
+.galery-shiping-row .shipin-chek-text {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.galery-shiping-row .shipin-chek-text .shiping-text-one h4, .galery-shiping-row .shipin-chek-text .shiping-text-one .h4 {
+  padding-left: 160px;
+  padding-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+  color: #19456B;
+}
+
+.galery-shiping-row .shipin-chek-text .shiping-text-one .shiping-chek-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.galery-shiping-row .shipin-chek-text .shiping-text-one .shiping-chek-p p {
+  padding-left: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #382933;
+  width: 220px;
+}
+
+.galery-shiping-row .Trucks h3, .galery-shiping-row .Trucks .h3 {
+  padding-left: 160px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 52px;
+  color: #19456B;
+}
+
+.galery-shiping-row .Trucks .pic-shiping-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 150px;
+  width: 100%;
+}
+
+.galery-shiping-row .Trucks .pic-shiping-two img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 330px;
+  padding-left: 10px;
+}
+
+.galery-shiping-row .headline-truck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 10px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.galery-shiping-row .headline-truck .truck-text {
+  padding-left: 160px;
+}
+
+.galery-shiping-row .headline-truck .truck-text h5, .galery-shiping-row .headline-truck .truck-text .h5 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 36px;
+  color: #19456B;
+}
+
+.galery-shiping-row .headline-truck .truck-text p {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.shipid-text-head {
+  width: 100%;
+}
+
+.shipid-text-head h2, .shipid-text-head .h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.shipid-text-head p {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #382933;
+}
+
+.shiping-card1 {
+  -webkit-box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+          box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+  margin-bottom: 100px;
+  padding: 30px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.shiping-card1 .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: space-evenly;
+      -ms-flex-align: space-evenly;
+          align-items: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 300px;
+}
+
+.shiping-card1 .head h3, .shiping-card1 .head .h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: #19456B;
+}
+
+.shiping-card1 .head p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #017280;
+}
+
+.shiping-card1 .head .save {
+  color: #00008E;
+}
+
+.shiping-card1 img {
+  max-width: 400px;
+  padding: 0px;
+}
+
+.shiping-card1 ul {
+  padding: 30px;
+  max-width: 300px;
+  text-align: left;
+  list-style-image: url(../img/check_pic.jpg);
+}
+
+.shiping-card1 #calc {
+  padding: 20px;
+  padding-left: 12px;
+}
+
+.shiping-form-main {
+  float: right;
+}
+
+.shiping-form-main form {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.shiping-form-main form .form-blogs {
+  -webkit-box-shadow: 9px 10px 10px rgba(178, 178, 197, 0.85);
+          box-shadow: 9px 10px 10px rgba(178, 178, 197, 0.85);
+  width: 250px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.shiping-form-main form .form-blogs p {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px;
+  color: #19456B;
+}
+
+.shiping-form-main form img {
+  height: 50px;
+}
+
+.shiping-form-main .blog-text p {
+  width: 400px;
+}
+
+.shiping-form-main .blog-text p b {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #19456B;
+}
 /*# sourceMappingURL=style.css.map */

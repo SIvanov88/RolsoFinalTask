@@ -1,0 +1,144 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style/style.css")
+        link(rel="stylesheet", href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+
+        title Document
+    header 
+        include temp/nav
+        include temp/mixing
+        -const text  = { h3:"Shipping" , p:"Home / Services / Shipping Freight" }
+        +info(text)        
+    body 
+        .container 
+            .row.galery-shiping-row
+                .col-8.form-pic-row
+                    .shiping-galery-main
+                        img(src="./img/image5.jpg", alt="")
+                    .form-container 
+                        .shiping-form-main
+                            form
+                                .form-blogs 
+                                    p Other Services
+                                img(src="./img/list.png", alt="")
+                            .blog-text 
+                                p Air Freight 
+                            .blog-text 
+                                p Train Freight
+                            .blog-text 
+                                p Air Freight
+                        .shiping-form-main
+                            form
+                                .form-blogs 
+                                    p Other Services
+                                img(src="./img/icon15.png", alt="")
+                            .blog-text 
+                                p Address 
+                            .blog-text 
+                                p
+                                    b 4621 Hill Croft Farm Road 
+                            .blog-text 
+                                p Phone
+                            .blog-text 
+                                p
+                                    b +8 (495) 989 20 11                                  
+                                   
+                .col-4.shiping-galery 
+                    img(src="./img/image3.jpg", alt="")
+                    img(src="./img/image3.jpg", alt="")
+                    img(src="./img/image3.jpg", alt="")
+                    img(src="./img/image3.jpg", alt="")
+                .col-4.shiping-text-p
+                    p Phasellus ac venenatis magna. Aliquam vitae blandit mauris. Quisque at ornare augue. Sed ac massa mattis, rhoncus nisl at, porttitor libero. Donec lorem enim, hendrerit nec bibendum id, placerat mattis tortor. Donec nec iaculis diam. Pellentesque vitae purus vulputate, congue lectus nec, commodo nisi.
+                    p Proin viverra, diam bibendum fermentum tempus, mi nunc ornare erat, a convallis dolor augue eu lectus. Vivamus tempor velit id mattis sagittis. Quisque porta purus et odio aliquet, at tincidunt dolor blandit. Quisque ut nibh enim. Pellentesque id ultrices libero, vitae gravida libero. Vivamus facilisis sagittis metus. Nullam molestie ex ac dui elementum blandit. Integer vitae venenatis orci. Morbi sollicitudin dictum massa, eu sodales mauris egestas id.
+                    p Sed suscipit, mi vel sodales pharetra, enim dolor lacinia tellus, vel mollis felis mauris et lorem. Cras convallis enim at hendrerit pharetra. Mauris nec tincidunt tortor, tincidunt elementum orci. Morbi at facilisis turpis. Donec pulvinar quam sed libero vehicula posuere.
+                .col-4.shipin-chek-text
+                    .shiping-text-one
+                        h4 Industries served
+                        .shiping-chek-p 
+                            img(src="./img/check-circle.png", alt="")
+                            p Ut rutrum enim quis feugiat maxi
+                        .shiping-chek-p 
+                            img(src="./img/check-circle.png", alt="")
+                            p Ut rutrum enim quis feugiat maxi
+                        .shiping-chek-p 
+                            img(src="./img/check-circle.png", alt="")
+                            p Ut rutrum enim quis feugiat maxi
+                    .shiping-text-one 
+                        h4 Services offered
+                        .shiping-chek-p
+                            img(src="./img/check-circle.png", alt="")
+                            p Ut rutrum enim quis feugiat maxi
+                        .shiping-chek-p 
+                            img(src="./img/check-circle.png", alt="")
+                            p Ut rutrum enim quis feugiat maxi
+                        .shiping-chek-p 
+                            img(src="./img/check-circle.png", alt="")
+                            p Ut rutrum enim quis feugiat maxi
+                .col-4.shiping-text-p 
+                    p Duis imperdiet tristique elit, ut viverra sem condimentum sed. Donec et elit ut massa posuere fringilla quis in urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla odio id mauris pharetra dictum. In tincidunt ex urna, id pretium nulla pretium sed. Integer eu orci mollis, aliquet felis eu, tempor orci. Cras accumsan vel diam tempus sodales. Phasellus cursus tincidunt sapien, sit amet ultricies massa mollis id.  
+                    p Cras nibh massa, tincidunt dignissim pellentesque non, ullamcorper sit amet nulla. Aenean magna nisl, dignissim a ligula id, bibendum congue nulla. Sed lobortis tempor commodo.
+                .col-4.Trucks 
+                    h3 Trucks
+                    .pic-shiping-two 
+                        img(src="./img/image6.jpg", alt="")
+                        img(src="./img/image6.jpg", alt="")
+                .col-4.headline-truck 
+                    .truck-text
+                        h5 Cascadia Evolution
+                        p 72 full-size condo 
+                    .truck-text
+                        h5 Cascadia Evolution
+                        p 72 full-size condo    
+            .row 
+                .col-12.shipid-text-head 
+                    h2 The right price for you,
+                    h2 whoever you are     
+                    p Vestibulum tellus orci, pharetra non risus vitae, varius pellentesque magna. Integer sed sapien magna.
+                    p Nulla neque diam, auctor eu dolor sed, rutrum euismod felis        
+            .row
+                .col-sm-12.col-md-6.col-lg-4
+                    .shiping-card1
+                        .head   
+                            h3 Basic
+                            p Save 10%
+                        img(src="./img/Price.png", alt="")
+                        ul 
+                            li Ut consequat rhoncus nisi vel
+                            li Class aptent taciti sociosqu
+                            li Proin non mattis augue. In vehicula
+                        img(src="./img/Calculator2.png",type="button", id="calc" alt="")     
+                .col-sm-12.col-md-6.col-lg-4 
+                    .shiping-card1
+                        .head   
+                            h3 Basic
+                            p.save Save 10%
+                        img(src="./img/Price (2).png", alt="")
+                        ul 
+                            li Ut consequat rhoncus nisi vel
+                            li
+                                b Class aptent taciti sociosqu
+                            li Proin non mattis augue. In vehicula 
+                        img(src="./img/Calculator2.png",type="button", id="calc" alt="")     
+                .col-sm-12.col-md-6.col-lg-4 
+                    .shiping-card1
+                        .head   
+                            h3 Basic
+                            p Save 10%
+                        img(src="./img/Price (1).png", alt="")
+                        ul 
+                            li Ut consequat rhoncus nisi vel
+                            li Class aptent taciti sociosqu
+                            li Proin non mattis augue. In vehicula 
+                        img(src="./img/Calculator2.png",type="button", id="calc" alt="")   
+    footer 
+        include temp/info                                                          
+                                                                                                        
