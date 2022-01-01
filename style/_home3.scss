@@ -1,0 +1,280 @@
+@import './position';
+
+
+    .main-line {
+        background-color: #00008E;
+        height: 100px;
+        padding: 30px;
+        .flt{
+            margin-left: 100px;
+            .img-social{
+                .social-icons {
+                    padding:0px;
+                    margin:0px;
+                    padding-left: 20rem;
+                    img{
+                        padding-left: 20px;
+            
+                    }
+                }
+            }
+            .text-pragraph-soc{
+                padding-left: 200px;
+                p{
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+
+
+.nav-bar-soc{
+    @include elementPostion(center,center,row);
+    margin-top: -230px;
+    .social-nav-line {
+        @include elementPostion(flex-start,flex-start,row);
+        background-color: white;
+        max-width: 700px;
+        margin: 0px;
+        height: 60px;
+        padding: 15px;
+        img{
+            padding-left: 5px;
+        }
+        ul{
+            margin-left: 0px;
+            padding-top: 5px;
+            li{
+                display: inline;
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 520;
+                    font-size: 17px;
+                    line-height: 22px;
+                    color: #382933;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    
+    .nav-img{
+        margin: 0px;
+        margin-left: -175px;
+        
+        img{
+            object-fit: cover;
+            height: 60px;
+        }
+    }
+}
+
+.home3-row-text {
+    padding: 300px;
+    padding-left: 400px;
+    .home3-text-title {
+        @include elementPostion(center,center,column);
+        h2{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 50px;
+            line-height: 80px;
+            color:#FFFFFF;
+        }
+        p{
+            text-align: center;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 23px;
+            color: #E1E1E1;
+        }
+        img{
+            padding-top: 20px;
+            padding-left: 5px;
+        }
+    }
+}
+
+.home3-row-text2 {
+    padding: 300px;
+    padding-left: 400px;
+    padding-top: 20px;
+    .home3-text-title2 {
+        @include elementPostion(center,center,column);
+        h2{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 50px;
+            color:#19456B;
+        }
+        p{
+            text-align: center;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 23px;
+            color: #382933;
+        }
+        img{
+            padding-top: 20px;
+            padding-left: 5px;
+        }
+    }
+}
+
+.home3-boxes{
+    margin-bottom:100px;
+    width: 100%;
+    @include elementPostion(center,center,row);
+    .hboxes{
+        box-shadow: 5px 10px 10px 5px rgba(178, 178, 197, 0.85);
+        padding: 15px;
+        max-width: 400px;
+        margin-right: 2px;
+        img{
+            margin-left: -20px;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+        h4{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 28px;
+            color:#19456B;
+        }
+        p{
+            text-align: center;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 25px;
+            color:#382933;
+        }
+    }
+}
+
+.home3-section{
+    width: 100%;
+    margin-bottom: 100px;
+    .home3-first-col{
+        padding-left: 50px;
+        margin-right: 150px;
+        h3{
+            width: 500px;
+            padding-bottom: 50px;
+        }
+        p{
+            width: 400px;
+            padding-bottom: 50px;
+        }
+        ul{
+            padding-left: 19px;
+            list-style-image:url(../img/check-b.png);
+            width: 400px;
+            padding-bottom: 30px;
+        }
+        img{
+            padding-left: 5px;
+        }
+    }
+    .home3-image-row{
+        @include elementPostion(center,center,column);
+        padding-top: 50px;
+        img{
+            padding: 0px;
+        }
+        p{
+            padding: 0px;
+            padding-bottom: 30px;
+            padding-bottom: 50px;
+        }
+    }
+    
+    .home3-galery{
+        max-width: 300px;
+        margin-left: 180px;
+        height: 400px;
+        .image_div{
+            @include elementPostion(center,center,row);
+            padding-left: 152.9px;
+            img{
+                object-fit: cover;
+                width: 200px;
+                height: 400px;
+                padding: 0px;
+            }
+        }
+    }
+}
+
+.chess{
+    margin-left: 30px;
+}
+
+
+.img-text-cont {
+    @include elementPostion(center,center,row);
+    max-width: 600px;
+    .img-container{
+        max-width: 300px;
+        img{
+            object-fit: cover;
+            width: 300px;
+            height: 400px;
+            padding-left: 0px;
+        }
+    }
+    .text-container{
+        @include elementPostion(flex-start,flex-start,column);
+        max-width: 300px;
+        height: 400px;
+        margin: 0px;
+        padding: 70px;
+        img{
+           display: flex;
+           justify-content: left;
+           object-fit: cover;
+           margin-left: -160px;
+           padding-bottom:20px;
+        }
+        h5{
+            padding-left: 0px;
+            padding-bottom:20px;
+            text-align: left;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 30px;
+            color: #19456B;
+            width: 100px;
+        }
+        p{
+            width: 200px;
+            text-align: left;
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 25px;
+            color: #382933;
+        }
+    }
+}
