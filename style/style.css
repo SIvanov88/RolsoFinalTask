@@ -15321,7 +15321,7 @@ form img {
 .main-line .flt .img-social .social-icons {
   padding: 0px;
   margin: 0px;
-  padding-left: 20rem;
+  padding-left: 14rem;
 }
 
 .main-line .flt .img-social .social-icons img {
@@ -15616,7 +15616,7 @@ form img {
 
 .home3-section .home3-galery {
   max-width: 300px;
-  margin-left: 180px;
+  margin-left: 100px;
   height: 400px;
 }
 
@@ -15640,7 +15640,7 @@ form img {
 .home3-section .home3-galery .image_div img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 200px;
+  width: 160px;
   height: 400px;
   padding: 0px;
 }
@@ -15733,5 +15733,357 @@ form img {
   font-size: 17px;
   line-height: 25px;
   color: #382933;
+}
+
+.home3-text-head {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.home3-text-head h2, .home3-text-head .h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.home3-text-head p {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 10px;
+  color: #382933;
+}
+
+.home3-cards {
+  width: 100%;
+}
+
+.home3-cards .home3-card1 {
+  -webkit-box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+          box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+  margin-bottom: 100px;
+  padding: 30px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.home3-cards .home3-card1 .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: space-evenly;
+      -ms-flex-align: space-evenly;
+          align-items: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 300px;
+}
+
+.home3-cards .home3-card1 .head h3, .home3-cards .home3-card1 .head .h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: #19456B;
+}
+
+.home3-cards .home3-card1 .head p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #017280;
+}
+
+.home3-cards .home3-card1 .head .save {
+  color: #00008E;
+}
+
+.home3-cards .home3-card1 img {
+  max-width: 400px;
+  padding: 0px;
+}
+
+.home3-cards .home3-card1 ul {
+  padding: 30px;
+  max-width: 300px;
+  text-align: left;
+  list-style-image: url(../img/check_pic.jpg);
+}
+
+.home3-cards .home3-card1 #calc {
+  padding: 20px;
+  padding-left: 12px;
+}
+
+.empty-div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.empty-div .blank-div {
+  width: 300px;
+  height: 100px;
+  margin-right: 15px;
+  -webkit-box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+          box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+  margin-bottom: 100px;
+}
+
+.headline-title {
+  width: 100%;
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headline-title h2, .headline-title .h2 {
+  width: 500px;
+  text-align: center;
+}
+
+.users-info-stuff {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.users-info-stuff .home3-inputdata {
+  -webkit-box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+          box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+}
+
+.users-info-stuff .home3-inputdata .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10px;
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+.users-info-stuff .home3-inputdata .form .data {
+  margin-left: 10px;
+}
+
+.users-info-stuff .home3-inputdata .form .data .person label {
+  display: block;
+}
+
+.users-info-stuff .home3-inputdata .form .data .person input {
+  width: 300px;
+}
+
+.users-info-stuff .home3-inputdata .messege {
+  padding: 10px;
+}
+
+.users-info-stuff .home3-inputdata .messege img {
+  padding: 10px;
+  float: right;
+}
+
+.users-info-stuff .faqs-icons-home3 .faqs-icon-home3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.users-info-stuff .faqs-icons-home3 .faqs-icon-home3 img {
+  width: 250px;
+  height: 100px;
+}
+
+.users-info-stuff .faqs-icons-home3 .faqs-icon-home3 .faqs-phone-text {
+  -webkit-box-shadow: 9px 10px 10px rgba(178, 178, 197, 0.85);
+          box-shadow: 9px 10px 10px rgba(178, 178, 197, 0.85);
+  height: 100px;
+  width: 250px;
+  padding: 15px;
+}
+
+.users-info-stuff .faqs-icons-home3 .faqs-icon-home3 .faqs-phone-text p:first-child {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.users-info-stuff .faqs-icons-home3 .faqs-icon-home3 .faqs-phone-text p:nth-child(2) {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  color: #19456B;
+  width: 200px;
+}
+
+.home3-map-google {
+  width: 100%;
+}
+
+.home3-map-google .googlemap-home3 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.section-home3 {
+  margin-left: 50px;
+}
+
+.section-home3 .info-home3 img {
+  padding-left: 0px;
+  margin-bottom: 30px;
+}
+
+.section-home3 .social-home3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-home3 .social-home3 img {
+  padding-left: 40px;
+  margin-top: 30px;
+}
+
+.section-home3 .social-home3 img:first-child {
+  padding-left: 0px;
+}
+
+.section-home3 .social-home3 p {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  color: #382933;
+}
+
+.section-home3 .info-list-home3 li {
+  padding-bottom: 20px;
+  list-style-image: url(../img/caret-right-blue.png);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #19456B;
+}
+
+.section-home3 .grey-boxs {
+  height: 50px;
+}
+
+.section-home3 .grey-boxs .first-box-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-home3 .grey-boxs .first-box-div .div-white {
+  width: 80px;
+  height: 80px;
+  background-color: #D8D8D8;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.last-row {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.last-row .last-paragraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.last-row p {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  color: #382933;
+  margin-left: 150px;
 }
 /*# sourceMappingURL=style.css.map */

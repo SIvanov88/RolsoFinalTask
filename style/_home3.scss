@@ -11,7 +11,7 @@
                 .social-icons {
                     padding:0px;
                     margin:0px;
-                    padding-left: 20rem;
+                    padding-left: 14rem;
                     img{
                         padding-left: 20px;
             
@@ -209,14 +209,14 @@
     
     .home3-galery{
         max-width: 300px;
-        margin-left: 180px;
+        margin-left: 100px;
         height: 400px;
         .image_div{
             @include elementPostion(center,center,row);
             padding-left: 152.9px;
             img{
                 object-fit: cover;
-                width: 200px;
+                width: 160px;
                 height: 400px;
                 padding: 0px;
             }
@@ -276,5 +276,254 @@
             line-height: 25px;
             color: #382933;
         }
+    }
+}
+
+
+.home3-text-head {
+    width: 100%;
+    margin-top: 100px;
+    h2{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    p{
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 10px;
+        color:#382933;
+    }
+}
+
+.home3-cards{
+    width: 100%;
+    .home3-card1{
+        box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+        margin-bottom: 100px;
+        padding: 30px;
+        height: 500px;
+        margin-top: 50px;
+        .head{
+            @include elementPostion(space-between,space-evenly,row);
+            max-width: 300px;
+            h3{
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 800;
+                color: #19456B; 
+                
+            }
+            p{
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: bold; 
+                color: #017280;
+            }
+            .save{
+                color:#00008E;
+            }
+        }
+        img{
+            max-width: 400px;
+            padding: 0px;
+        }
+        ul{
+            padding: 30px;
+            max-width: 300px;
+            text-align: left;
+            list-style-image: url(../img/check_pic.jpg);
+        }
+        #calc{
+            padding: 20px;
+            padding-left: 12px;
+        }
+      
+    }
+}
+
+
+
+.empty-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .blank-div{
+        
+        width: 300px;
+        height:100px;
+        margin-right: 15px;
+        box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+        margin-bottom: 100px;
+    }
+}
+
+.headline-title{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    h2{
+        width: 500px;
+        text-align: center;
+    }
+}
+
+.users-info-stuff{
+    width: 100%;
+    margin-top:100px;
+    margin-bottom: 100px;;
+    .home3-inputdata{
+        box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+        .form {
+            @include elementPostion(center,center,row);
+            padding: 10px;
+            height: 200px;
+            padding-bottom: 20px;
+            .data{
+                margin-left: 10px;
+                .person{
+                    label{
+                        display: block;
+                    }
+                    input{
+                        width: 300px;
+                    }
+                } 
+            }
+        }
+        
+        .messege{
+            padding: 10px;
+            img{
+                padding: 10px;
+                float: right;
+            }
+        }
+    }
+    .faqs-icons-home3{
+        .faqs-icon-home3 {
+            @include elementPostion(flex-start,flex-start,row);
+            margin-bottom:50px;
+            img{
+                width:250px;
+                height:100px;
+            }
+            .faqs-phone-text{
+                box-shadow: 9px 10px 10px rgba(178, 178, 197, 0.85);
+                height:100px;
+                width:250px;
+                padding: 15px;
+                
+                p:first-child{
+                    font-family: 'Rubik', sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 20px;
+                }
+                p:nth-child(2){
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color:#19456B;
+                    width:200px;
+               }
+            }
+        }
+        
+    }
+}
+
+.home3-map-google{
+    width: 100%;
+    .googlemap-home3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+}
+
+.section-home3{
+    margin-left: 50px;
+    .info-home3{
+        img{
+            padding-left: 0px;
+            margin-bottom:30px;
+        }
+    }
+    .social-home3{
+        @include elementPostion(flex-start,flex-start,row);
+        img{
+            padding-left: 40px;
+            margin-top: 30px;
+        }
+        img:first-child{
+            padding-left: 0px;
+        }
+        p{
+            font-family: 'Rubik', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 27px;
+            color:#382933;
+        }
+    }
+    .info-list-home3{
+        li{
+            padding-bottom: 20px;
+            list-style-image: url(../img/caret-right-blue.png);
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color:#19456B;
+        }
+    }
+    .grey-boxs{
+        height: 50px;
+        .first-box-div{
+            @include elementPostion(flex-start,flex-start,row);
+            .div-white{
+                width: 80px;
+                height:80px;
+                background-color: #D8D8D8;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.last-row{
+    width:100%;
+    margin-top: 100px;
+    .last-paragraph{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 25px;
+        color: #382933;
+        margin-left: 150px;
     }
 }
