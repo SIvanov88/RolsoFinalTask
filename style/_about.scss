@@ -1,0 +1,202 @@
+@import './position';
+
+.about-header {
+    @include elementPostion(center,center,column);
+    h2{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 66px;
+        color: #19456B;
+        width: 500px;
+    }
+    p{
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 25px;
+        color: #382933;
+        width: 600px;
+    }
+}
+
+.icons-row{
+    width:100%;
+    .about-icon-font {
+        @include elementPostion(center,center,column);
+        margin-top: 120px;
+        .about-card {
+            @include elementPostion(center,center,row);
+            margin-bottom: 100px;
+            
+            .about-pic-div{
+                position: absolute;
+                margin: 0px;
+                padding-left: 100px;
+                z-index: 1;
+                margin-left: -30px;
+                img:first-child{
+                    position: relative;
+                    z-index: 1;
+                    width: 400px;
+                    height:250px;
+                }
+                img:nth-child(2){
+                    position: relative;
+                    z-index: 2;
+                    margin-top: -270px;
+                    margin-left: 80px;
+                    width: 250px;
+                    height:100px;
+                }
+            }
+            .nomer{
+                position: relative;
+                z-index: 2;
+                margin-top: -150px;
+                margin-left: 60px;
+            }
+        }
+        .about-info{
+            padding-top: 0px;
+            padding-left: 100px;
+            margin-top: 0px;
+            width: 400px;
+            margin-right: 30px;
+            h3{
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 36px;
+                color: #19456B;
+            }
+            p{
+                text-align: center;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 25px;
+                color: #382933;
+            }
+        }
+    }
+    .about-icon-font-second{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        .about-card{
+            padding: 0px;
+            margin: 0px;
+            margin-left: 10px;
+            .about-pic-div {
+                margin-left: -100px;
+                img:first-child{
+                    z-index: 1;
+                    position: absolute;
+                    width: 400px;
+                    height:250px; 
+                }
+                img:nth-child(2){
+                    z-index: 2;
+                    position: absolute;
+                    width: 270px;
+                    height:100px;
+                    margin-left: 65px;
+                    margin-top:75px;
+                }
+            }
+            .nomer{
+                position: relative;
+                z-index: 3;
+                margin-top: 50px;
+                margin-left: 80px;
+            }
+        }
+        .about-info{
+            width: 300px;
+            padding-top: 150px;
+            margin-left: 40px;
+            h3{
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 36px;
+                color: #19456B;
+            }
+            p{
+                text-align: center;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 25px;
+                color: #382933;
+            }
+        }
+    }
+    .about-icon-font-trd{
+        
+        .about-card{
+            margin-left: -90px;
+            .about-pic-div{
+                img:first-child{
+                    z-index: 1;
+                    position: absolute;
+                    width: 400px;
+                    height:250px;
+                    margin-top:80px;
+                   
+                }
+                img:nth-child(2){
+                    z-index: 2;
+                    position: absolute;
+                    width: 230px;
+                    height:120px;
+                    margin-top: 130px;
+                    margin-left:80px;
+                }
+            }
+            .nomer{
+                position: relative;
+                z-index: 3;
+                margin-top: 130px;
+                margin-left: 180px;
+            }
+        }
+        .about-info{
+            margin-top: 140px;
+            width: 300px;
+            margin-left: 50px;
+            h3{
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 36px;
+                color: #19456B;
+            }
+            p{
+                text-align: center;
+                font-family: 'Rubik', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 25px;
+                color: #382933;
+            }
+        }
+    }
+}
+
+
+

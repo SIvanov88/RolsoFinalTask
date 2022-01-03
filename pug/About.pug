@@ -1,0 +1,60 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style/style.css")
+        link(rel="stylesheet", href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+
+        title About 
+    header 
+        include temp/nav
+        include temp/mixing
+        -const text  = { h3:"About" , p:"Home / About" }
+        +info(text)     
+    body
+        .container 
+            .row 
+                .col-12.about-header 
+                    h2 Steps of cooperation
+                    p Phasellus commodo felis felis, quis blandit metus rutrum sit amet. Pellentesque odio augue, pellentesque sed ligula at, lobortis 
+            .row.icons-row 
+                .col-4.about-icon-font
+                    .about-card 
+                        .about-pic-div 
+                            img(src="./img/bg (1.1).png", alt="")
+                            img(src="./img/calendar22.png", alt="")
+                        img.nomer(src="./img/nomber.png", alt="")    
+                    .about-info 
+                        h3 Thinking strategy
+                        p Curabitur porttitor viverra mi, a viverra risus sagittis at. Nulla rhoncus quis velit id varius. Aenean euism
+                .col-4.about-icon-font-second
+                    .about-card 
+                        .about-pic-div 
+                            img(src="./img/bg (1.1).png", alt="")
+                            img(src="./img/hourglass.png", alt="")
+                        img.nomer(src="./img/nomber (1).png", alt="") 
+                    .about-info 
+                        h3 Thinking strategy
+                        p Curabitur porttitor viverra mi, a viverra risus sagittis at. Nulla rhoncus quis velit id varius. Aenean euism 
+                .col-4.about-icon-font-trd
+                    .about-card 
+                        .about-pic-div 
+                            img(src="./img/bg (1.1).png", alt="")
+                            img(src="./img/package.png", alt="")
+                        img.nomer(src="./img/nomber (2).png", alt="")    
+                    .about-info 
+                        h3 Route building
+                        p Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos              
+                                                    
+                                   
+                                    
+
+                                  
+                                                        
+                
