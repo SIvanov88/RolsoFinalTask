@@ -183,7 +183,8 @@
 
 .Transporterium {
     background: linear-gradient(135deg, rgba(0, 0, 142, 0.6) 0%, rgba(1, 114, 128, 0.6) 100%);
-    padding-top: 100px;
+    padding-top: 300px;
+    padding-bottom: 300px;
     .first-b{
         padding-left: 170px;
         h1{
@@ -223,3 +224,82 @@
         }
     }
 }
+
+.users-data{
+    box-shadow: 5px 5px 10px 10px rgba(178, 178, 197, 0.85);
+    margin-top: 150px;
+    width: 1000px;
+    height: 800px;
+}
+
+.box-home-user{
+    box-shadow: 5px 5px 10px 10px rgba(178, 178, 197, 0.85);
+    background: white;
+    margin-top: -250px;
+    margin-bottom: 50px;
+    padding: 30px 30px;
+    width: 100%;
+    .home2-data{
+        padding-left: 500px;
+        .users-home2 {
+            form{
+                .data-h {
+                    input{
+                       margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .home2-value{
+        padding-left: 500px;
+        .users-home2 {
+            form{
+                .data-h {
+                    input{
+                       margin-right: 15px;
+                       width: 290px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .row.home2-measur{
+        padding-left: 500px;
+        .users-home2 {
+            form{
+                .data-h {
+                    input{
+                       margin-right: 15px;
+                       width: 137px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .home2-btn {
+        width: 100%;
+        padding-left: 340px;
+        .col-6.btn-form{
+            width: 800px;
+            .btn{
+                padding-left: 0px;
+                padding-right: 60px;
+            }
+        }
+    }
+    .user-btn {
+        .btn-h{
+            padding-left: 700px;
+            img{
+                padding-left: 100px;
+                width: 250px;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+

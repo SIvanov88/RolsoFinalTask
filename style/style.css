@@ -16873,7 +16873,8 @@ form img {
 
 .Transporterium {
   background: linear-gradient(135deg, rgba(0, 0, 142, 0.6) 0%, rgba(1, 114, 128, 0.6) 100%);
-  padding-top: 100px;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
 .Transporterium .first-b {
@@ -16943,5 +16944,73 @@ form img {
 
 .Transporterium .numbers-h .second-b:nth-child(2) {
   padding-left: 0px;
+}
+
+.users-data {
+  -webkit-box-shadow: 5px 5px 10px 10px rgba(178, 178, 197, 0.85);
+          box-shadow: 5px 5px 10px 10px rgba(178, 178, 197, 0.85);
+  margin-top: 150px;
+  width: 1000px;
+  height: 800px;
+}
+
+.box-home-user {
+  -webkit-box-shadow: 5px 5px 10px 10px rgba(178, 178, 197, 0.85);
+          box-shadow: 5px 5px 10px 10px rgba(178, 178, 197, 0.85);
+  background: white;
+  margin-top: -250px;
+  margin-bottom: 50px;
+  padding: 30px 30px;
+  width: 100%;
+}
+
+.box-home-user .home2-data {
+  padding-left: 500px;
+}
+
+.box-home-user .home2-data .users-home2 form .data-h input {
+  margin-right: 15px;
+}
+
+.box-home-user .home2-value {
+  padding-left: 500px;
+}
+
+.box-home-user .home2-value .users-home2 form .data-h input {
+  margin-right: 15px;
+  width: 290px;
+}
+
+.box-home-user .row.home2-measur {
+  padding-left: 500px;
+}
+
+.box-home-user .row.home2-measur .users-home2 form .data-h input {
+  margin-right: 15px;
+  width: 137px;
+}
+
+.box-home-user .home2-btn {
+  width: 100%;
+  padding-left: 340px;
+}
+
+.box-home-user .home2-btn .col-6.btn-form {
+  width: 800px;
+}
+
+.box-home-user .home2-btn .col-6.btn-form .btn {
+  padding-left: 0px;
+  padding-right: 60px;
+}
+
+.box-home-user .user-btn .btn-h {
+  padding-left: 700px;
+}
+
+.box-home-user .user-btn .btn-h img {
+  padding-left: 100px;
+  width: 250px;
+  padding-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */
