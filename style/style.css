@@ -16617,4 +16617,331 @@ form img {
 .line9 map iframe {
   width: 100%;
 }
+
+.container-h2 {
+  background: #00008E;
+  height: 100px;
+}
+
+.container-h2 .home2-row {
+  width: 100%;
+  height: 30px;
+}
+
+.container-h2 .home2-row .navbar-home2 {
+  margin-left: 200px;
+}
+
+.container-h2 .home2-row .navbar-home2 ul {
+  padding: 30px;
+}
+
+.container-h2 .home2-row .navbar-home2 ul li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.container-h2 .home2-row .navbar-home2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-h2 .home2-row .home2-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 200px;
+}
+
+.container-h2 .home2-row .home2-social img {
+  padding-left: 50px;
+}
+
+.container-h2-tow {
+  background: white;
+  height: 100px;
+  padding: 30px;
+  padding-left: 95px;
+}
+
+.container-h2-tow .navbar-home2-two {
+  width: 100%;
+}
+
+.container-h2-tow .navbar-home2-two .home2-nav-two {
+  width: 600px;
+  margin-left: 230px;
+}
+
+.container-h2-tow .navbar-home2-two .home2-nav-two ul {
+  padding-left: 100px;
+}
+
+.container-h2-tow .navbar-home2-two .home2-nav-two ul li {
+  display: inline;
+}
+
+.container-h2-tow .navbar-home2-two .home2-nav-two ul li a {
+  text-decoration: none;
+  color: #382933;
+  padding-left: 20px;
+}
+
+.container-h2-tree .home2-headline {
+  padding: 200px;
+}
+
+.container-h2-tree .home2-headline .content-home2 h1, .container-h2-tree .home2-headline .content-home2 .h1 {
+  text-align: left;
+  width: 800px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 78px;
+  line-height: 92px;
+  color: #FFFFFF;
+}
+
+.container-h2-tree .home2-headline .content-home2 p {
+  text-align: left;
+  width: 700px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  color: #E1E1E1;
+}
+
+.container-h2-tree .home2-headline img {
+  padding-left: 0px;
+}
+
+.home-body2 .home2-info {
+  margin-top: -300px;
+  margin-bottom: 100px;
+}
+
+.home-body2 .home2-info .home2-truck {
+  background: linear-gradient(135deg, #00008E 0%, #017280 100%);
+  -webkit-box-shadow: 20px 20px 50px rgba(178, 178, 197, 0.85);
+          box-shadow: 20px 20px 50px rgba(178, 178, 197, 0.85);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px;
+}
+
+.home-body2 .home2-info .home2-truck img {
+  padding-left: 0px;
+  padding-bottom: 40px;
+}
+
+.home-body2 .home2-info .home2-truck .h2-truck {
+  padding: 20px;
+}
+
+.home-body2 .home2-info .home2-truck:nth-child(2) {
+  background: #FFFFFF;
+  border-right: 1px solid #E1E1E1;
+}
+
+.home-body2 .home2-info .home2-truck:nth-child(3) {
+  background: #FFFFFF;
+}
+
+.christmas-row {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.christmas-row .home-christmas img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 500px;
+  height: 600px;
+}
+
+.christmas-row .home-christmas2 {
+  padding: 50px;
+}
+
+.christmas-row .home-christmas2 .text-christmas {
+  padding-left: 100px;
+  width: 700px;
+}
+
+.christmas-row .home-christmas2 .text-christmas h2, .christmas-row .home-christmas2 .text-christmas .h2 {
+  width: 600px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 66px;
+  color: #19456B;
+}
+
+.christmas-row .home-christmas2 .text-christmas p {
+  width: 600px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  color: #382933;
+}
+
+.christmas-row .home-christmas2 .christmas-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 50px;
+}
+
+.christmas-row .home-christmas2 .christmas-box .home2-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.christmas-row .home-christmas2 .christmas-box .home2-icon img {
+  padding-left: 0px;
+}
+
+.christmas-row .home-christmas2 .christmas-box .home2-icon .about-phone-text {
+  padding: 20px;
+  background: white;
+}
+
+.christmas-row .home-christmas2 .christmas-box .home2-icon .about-phone-text p:first-child {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.christmas-row .home-christmas2 .christmas-box .home2-icon .about-phone-text p:nth-child(2) {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  color: #19456B;
+  width: 200px;
+}
+
+.Transporterium {
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.6) 0%, rgba(1, 114, 128, 0.6) 100%);
+  padding-top: 100px;
+}
+
+.Transporterium .first-b {
+  padding-left: 170px;
+}
+
+.Transporterium .first-b h1, .Transporterium .first-b .h1 {
+  padding: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 66px;
+  color: #FFFFFF;
+}
+
+.Transporterium .numbers-h {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px;
+  padding-left: 170px;
+  width: 300px;
+}
+
+.Transporterium .numbers-h .second-b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px;
+}
+
+.Transporterium .numbers-h .second-b img {
+  padding-left: 0px;
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+.Transporterium .numbers-h .second-b p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #E1E1E1;
+}
+
+.Transporterium .numbers-h .second-b:nth-child(2) {
+  padding-left: 0px;
+}
 /*# sourceMappingURL=style.css.map */
