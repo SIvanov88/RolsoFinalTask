@@ -17152,4 +17152,307 @@ form img {
   height: 34.9%;
   padding-left: 0px;
 }
+
+.home2-galery .line6 .title {
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+.home2-galery .line6 .title h1, .home2-galery .line6 .title .h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 66px;
+  color: #19456B;
+  text-align: center;
+}
+
+.home2-galery .line7 .div-box {
+  padding: 60px;
+  -webkit-box-shadow: 5px 5px 10px 10px rgba(178, 178, 197, 0.85);
+          box-shadow: 5px 5px 10px 10px rgba(178, 178, 197, 0.85);
+  margin-left: 350px;
+  width: 700px;
+  padding-bottom: 150px;
+}
+
+.home2-galery .line7 .div-box p {
+  text-align: left;
+  width: 600px;
+}
+
+.home2-galery .line8 .ceo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 250px;
+  margin-top: -200px;
+}
+
+.home2-galery .line8 .ceo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 270px;
+  height: 100px;
+  margin-right: 30px;
+}
+
+.home2-galery .line8 .ceo .text {
+  padding-top: 100px;
+}
+
+.home2-galery .line8 .ceo .text h5, .home2-galery .line8 .ceo .text .h5 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #19456B;
+}
+
+.home2-galery .line8 .ceo .text p {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  color: #382933;
+}
+
+.home2-galery .empty-div-home2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home2-galery .empty-div-home2 .blank-div {
+  width: 300px;
+  height: 100px;
+  margin-right: 15px;
+  -webkit-box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+          box-shadow: 10px 9px 10px 10px rgba(178, 178, 197, 0.85);
+  margin-bottom: 100px;
+}
+
+.home2-galery .line9 h1, .home2-galery .line9 .h1 {
+  text-align: center;
+  width: 700px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 66px;
+  color: #19456B;
+  margin-left: 400px;
+}
+
+.home2-galery .line10 {
+  width: 100%;
+}
+
+.home2-galery .line10 .blog-img {
+  padding-left: 100px;
+}
+
+.home2-galery .line10 .blog-img img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.home2-galery .line10 .blog-img .logistic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home2-galery .line10 .blog-img .logistic img {
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.home2-galery .line10 .blog-img .logistic p {
+  margin-right: 10px;
+}
+
+.home2-galery .line10 .blog-img .logistic-text {
+  padding: 10px;
+}
+
+.home2-galery .line10 .blog-img .logistic-text h5, .home2-galery .line10 .blog-img .logistic-text .h5 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  color: #19456B;
+}
+
+.home2-galery .line10 .blog-img .logistic-text p {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  color: #382933;
+  width: 550px;
+}
+
+.home2-galery .line10 .information {
+  padding-left: 0px;
+}
+
+.home2-galery .line10 .information .pic-stuff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: -200px;
+  margin-bottom: 30px;
+}
+
+.home2-galery .line10 .information .pic-stuff img {
+  max-width: 250px;
+  max-height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin-right: 10px;
+}
+
+.home2-galery .line10 .information .pic-stuff .stuff-text p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  width: 200px;
+  color: #19456B;
+}
+
+.home2-galery .line10 .information .pic-stuff .stuff-text p:nth-child(3) {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  color: #382933;
+}
+
+.home2-galery .line10 .information .pic-stuff .stuff-text .log-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home2-galery .line10 .information .pic-stuff .stuff-text .log-text img:nth-child(2) {
+  margin-left: -150px;
+}
+
+.home2-galery .line10 .information .pic-stuff .stuff-text .log-text p {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.home2-galery .map-google-home2 {
+  width: 100%;
+}
+
+.home2-galery .map-google-home2 .map {
+  padding-top: 100px;
+  margin-left: 200px;
+  margin-bottom: -500px;
+  max-width: 1310px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+  width: 100%;
+  padding-top: 500px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+}
+
+.footer .van-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer .van-pic img {
+  padding-left: 30px;
+}
 /*# sourceMappingURL=style.css.map */
