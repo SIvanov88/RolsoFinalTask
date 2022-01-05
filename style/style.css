@@ -16946,12 +16946,16 @@ form img {
   padding-left: 0px;
 }
 
+.offter-row .offter-btn img {
+  margin-top: -520px;
+  margin-right: -400px;
+  padding-left: -100px;
+}
+
 .users-data {
   -webkit-box-shadow: 5px 5px 10px 10px rgba(178, 178, 197, 0.85);
           box-shadow: 5px 5px 10px 10px rgba(178, 178, 197, 0.85);
   margin-top: 150px;
-  width: 1000px;
-  height: 800px;
 }
 
 .box-home-user {
@@ -17012,5 +17016,140 @@ form img {
   padding-left: 100px;
   width: 250px;
   padding-top: 10px;
+}
+
+.home2-headline4 .home2-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home2-headline4 .home2-title h1, .home2-headline4 .home2-title .h1 {
+  text-align: center;
+  width: 400px;
+}
+
+.home2-headline4 .home2-title p {
+  text-align: center;
+  width: 600px;
+}
+
+.home-num-row {
+  width: 100%;
+}
+
+.home-num-row .home-num {
+  padding-top: 100px;
+}
+
+.home-num-row .home-num img {
+  position: absolute;
+  padding-left: 140px;
+}
+
+.home-num-row .home-num .text01 {
+  position: relative;
+  padding-top: 120px;
+  padding-left: 160px;
+}
+
+.home-num-row .home-num .text01 h4, .home-num-row .home-num .text01 .h4 {
+  width: 300px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 36px;
+  color: #19456B;
+}
+
+.home-num-row .home-num .text01 p {
+  width: 300px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  color: #382933;
+}
+
+.home-num-row .home-num:nth-child(2) {
+  padding-top: 200px;
+}
+
+.home2-galery {
+  background: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.home2-galery .picture-home2 {
+  max-height: 100px;
+}
+
+.home2-galery .picture-home2 .home2-galery-text {
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+  padding: 50px;
+  padding-right: 0px;
+  height: 30%;
+  margin-left: 0px;
+  width: 40%;
+}
+
+.home2-galery .picture-home2 .home2-galery-text h4, .home2-galery .picture-home2 .home2-galery-text .h4 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.home2-galery .picture-home2 .home2-galery-text p {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  color: #E1E1E1;
+}
+
+.home2-galery .picture-home2 .home2-galery-text h3, .home2-galery .picture-home2 .home2-galery-text .h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.home2-galery .picture-home2 .home2-galery-pic {
+  width: 60%;
+}
+
+.home2-galery .picture-home2 .home2-galery-pic .galery {
+  height: 800px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-left: -11.6px;
+  margin-right: -20px;
+}
+
+.home2-galery .picture-home2 .home2-galery-pic .galery img {
+  background-size: cover;
+  width: 25%;
+  height: 34.9%;
+  padding-left: 0px;
 }
 /*# sourceMappingURL=style.css.map */
