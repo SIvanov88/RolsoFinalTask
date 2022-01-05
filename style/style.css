@@ -13012,12 +13012,7 @@ h1, .h1 {
   background-color: white;
 }
 
-.container {
-  padding-top: 200px;
-  width: 100%;
-}
-
-.title_temp {
+.mixin .title_temp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13038,18 +13033,35 @@ h1, .h1 {
   z-index: 2;
 }
 
-.title_temp h3, .title_temp .h3 {
+.mixin .title_temp h3, .mixin .title_temp .h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 50px;
   color: #19456B;
 }
 
-.title_temp p {
+.mixin .title_temp ul {
+  width: 500px;
+  margin-right: -200px;
+}
+
+.mixin .title_temp ul li {
+  display: inline;
+  padding-left: 5px;
+  width: 100px;
+}
+
+.mixin .title_temp ul li a {
   font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: normal;
   color: #382933;
+  text-decoration: none;
+}
+
+.container {
+  padding-top: 200px;
+  width: 100%;
 }
 
 .poster {

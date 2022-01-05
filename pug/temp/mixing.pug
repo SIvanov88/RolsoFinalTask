@@ -2,8 +2,13 @@ mixin info(infdata)
     .row.mixin
         .col-sm-12.col-md-12.col-lg-12.title_temp
             h3= infdata.h3
-            p= infdata.p
-    
+            ul 
+                li 
+                    a(href=`${infdata.h}`)=infdata.a
+                li 
+                    a(href=`${infdata.h1}`)=infdata.a1
+                li 
+                    a(href=`${infdata.h2}`)=infdata.a2            
 
 
 

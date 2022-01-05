@@ -11,10 +11,10 @@ html(lang="en")
         link(rel="preconnect" href="https://fonts.googleapis.com")
         link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
         link(rel="stylesheet", href="./node_modules/@splidejs/splide/dist/css/splide.min.css")
-        script(type="module" src="./js/script.js")  
+        script(type="module" src="./js/script.js")
+        
 
-
-        title Document
+        title Home1
     header 
         include temp/nav  
         .container-fuid.headline 
@@ -148,8 +148,8 @@ html(lang="en")
                 .col-sm-8.col-md-8.col-lg-10.offerbtn.p-sm-0.pl-lg-5
                     img(src="./img/offer.png", alt="")
             .row 
-                .col-sm-12.col-md-6.col-lg-4 
-                    .card1
+                .col-sm-12.col-md-6.col-lg-4
+                    .card1(data-aos="fade-up")
                         .head   
                             h3 Basic
                             p Save 10%
@@ -160,7 +160,7 @@ html(lang="en")
                             li Proin non mattis augue. In vehicula
                         img(src="./img/Calculator2.png",type="button", id="calc" alt="")     
                 .col-sm-12.col-md-6.col-lg-4 
-                    .card1
+                    .card1(data-aos="fade-down")
                         .head   
                             h3 Basic
                             p.save Save 10%
@@ -172,7 +172,7 @@ html(lang="en")
                             li Proin non mattis augue. In vehicula 
                         img(src="./img/Calculator2.png",type="button", id="calc" alt="")     
                 .col-sm-12.col-md-6.col-lg-4 
-                    .card1
+                    .card1(data-aos="fade-up")
                         .head   
                             h3 Basic
                             p Save 10%
@@ -201,6 +201,9 @@ html(lang="en")
 
     footer 
         include temp/info
+
+   
+    script(src="https://unpkg.com/aos@next/dist/aos.js")  
 
        
         
