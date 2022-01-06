@@ -12444,6 +12444,10 @@ footer p {
   color: white;
 }
 
+.border3 img {
+  padding-left: 0px;
+}
+
 .box {
   display: -webkit-box;
   display: -ms-flexbox;
