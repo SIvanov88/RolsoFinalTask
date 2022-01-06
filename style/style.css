@@ -17466,4 +17466,81 @@ form img {
 .footer .van-pic img {
   padding-left: 30px;
 }
+
+.error-div {
+  background-color: linear-gradient(135deg, rgba(0, 0, 142, 0.7) 0%, rgba(1, 114, 128, 0.7) 100%);
+  padding: 500px;
+}
+
+.error-div .er-col .error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.error-div .er-col .error .div-box {
+  margin-left: 150px;
+  margin-top: -60px;
+}
+
+.error-div .er-col .error .div-box h1, .error-div .er-col .error .div-box .h1 {
+  width: 600px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 78px;
+  line-height: 92px;
+  color: #FFFFFF;
+}
+
+.error-div .er-col .error .div-box p {
+  width: 600px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #E1E1E1;
+  opacity: .7;
+}
+
+.error-div .er-col .error .div-box .error-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.error-div .er-col .error .div-box .error-search img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 30px;
+  padding-left: 0px;
+}
+
+.error-div .er-col .error .div-box .error-search input {
+  width: 300px;
+}
 /*# sourceMappingURL=style.css.map */

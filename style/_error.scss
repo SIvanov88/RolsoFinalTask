@@ -1,0 +1,48 @@
+@import './position';
+
+.error-div{
+    background-color: linear-gradient(135deg, rgba(0, 0, 142, 0.7) 0%, rgba(1, 114, 128, 0.7) 100%);
+    padding: 500px;
+    .er-col{
+        .error{
+            @include elementPostion (center,center,column);
+            .div-box{
+                margin-left: 150px;
+                margin-top: -60px;
+                h1{
+                    width: 600px;
+                    text-align: center;
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 78px;
+                    line-height: 92px;
+                    color: #FFFFFF;
+                }
+                p{
+                    width: 600px;
+                    text-align: center;
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #E1E1E1;
+                    opacity: .7;
+                }
+                .error-search {
+                    @include elementPostion (center,center,row);
+                    margin-bottom: 30px;
+                    img{
+                        object-fit: cover;
+                        width: 30px;
+                        padding-left: 0px;
+                    }
+                    input{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
