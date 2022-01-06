@@ -12159,6 +12159,13 @@ form img {
   margin: 0px;
 }
 
+.Subscribe img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 36px;
+  height: 36px;
+}
+
 .boxes {
   display: -webkit-box;
   display: -ms-flexbox;
